@@ -1,0 +1,26 @@
+:root {
+  --primary-bg: #f7f7f7;
+  --primary-text: #333;
+  --accent1: #ffae00;
+  --accent2: #ffce00;
+  --accent3: #ffd700;
+}
+
+body {
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+}
+
+.toolbar {
+  background-color: var(--accent1);
+  color: var(--primary-bg);
+}
+
+.content {
+  background-color: var(--primary-bg);
+}
+
+.actions .button, footer .button {
+  background-color: var(--accent2);
+  color: var(--primary-bg);
+}
