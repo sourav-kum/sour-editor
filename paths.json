@@ -3,5 +3,11 @@
     "type": "file",
     "name": "Home",
     "path": "/index.html"
+  },
+  
+  "sour-lang": {
+    "type": "folder",
+    "name": "Sour Lang",
+    "path": "/pages/sour-lang"
   }
 }

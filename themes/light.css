@@ -12,7 +12,7 @@ body {
 }
 
 .toolbar {
-  background-color: var(--accent1);
+  background-color: #222;
   color: var(--primary-bg);
 }
 
@@ -26,5 +26,6 @@ body {
 }
 
 a {
-  color: var(--accent1);
+  color: #007bff;
   text-decoration: none;
+}
