@@ -17,7 +17,7 @@ class Menu {
 
     this.root.style.cssText = (`
       position: absolute;
-      top: 65px;
+      top: 60px;
       background: white;
       width: 100%;
       height: calc(100% - 50px);
