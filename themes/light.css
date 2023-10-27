@@ -24,3 +24,7 @@ body {
   background-color: var(--accent2);
   color: var(--primary-bg);
 }
+
+a {
+  color: var(--accent1);
+  text-decoration: none;
