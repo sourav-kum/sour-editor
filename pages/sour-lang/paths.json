@@ -3,5 +3,11 @@
     "type": "file",
     "name": "Home",
     "path": "/"
+  },
+  
+  "overview": {
+    "type": "file",
+    "name": "Overview",
+    "path": "/pages/sour-lang"
   }
 }

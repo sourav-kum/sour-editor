@@ -16,16 +16,10 @@ body {
   color: var(--primary-bg);
 }
 
-.content {
-  background-color: var(--primary-bg);
-}
-
-.actions .button, footer .button {
-  background-color: var(--accent2);
-  color: var(--primary-bg);
-}
-
 a {
   color: #007bff;
-  text-decoration: none;
+}
+
+footer {
+  background: #222;
 }
