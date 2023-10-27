@@ -32,6 +32,10 @@ body {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: scroll;
 }
 
 /* Heading styles */
@@ -72,4 +76,41 @@ footer {
   color: var(--foreground);
 }
 
-/* Add more specific styling as needed based on your design preferences */
+.horz {
+  flex-direction: row;
+}
+
+.gap {
+  gap: 15px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.get-it-on {
+  background: red;
+  display: flex;
+  background: black;
+  width: max-content;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.get-it-on img {
+  width: 50px;
+  aspect-ratio: 1;
+}
+
+.get-it-on div {
+  margin-left: 5px;
+}
+
+.get-it-on div :nth-child(1) {
+  font-size: .6em;
+}
+
+.get-it-on div :nth-child(2) {
+  font-size: 1.8em;
+}
