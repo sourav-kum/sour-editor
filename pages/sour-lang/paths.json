@@ -2,12 +2,12 @@
   "home": {
     "type": "file",
     "name": "Home",
-    "path": "/"
+    "path": "../../"
   },
   
   "overview": {
     "type": "file",
     "name": "Overview",
-    "path": "/pages/sour-lang"
+    "path": "./"
   }
 }
