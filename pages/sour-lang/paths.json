@@ -9,5 +9,11 @@
     "type": "file",
     "name": "Overview",
     "path": "./"
+  },
+  
+  "overview": {
+    "type": "file",
+    "name": "Documentation",
+    "path": "./doc.html"
   }
 }

@@ -2,6 +2,8 @@
 <html>
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <title>Sour Lang Documentation</title>
 
   <link rel="stylesheet" href="../../style.css">
@@ -28,7 +30,6 @@
         <li><a href="#installation">Installation</a></li>
         <li><a href="#syntax">Syntax</a></li>
         <li><a href="#data-types">Data Types</a></li>
-        <li><a href="#functions">Functions</a></li>
         <!-- Add more divs as needed -->
       </ul>
     </nav>
@@ -121,11 +122,21 @@ multiline comment */</code></pre>
     </table>
   </section>
 
-  <div class="navigation">
-    <button onclick="location.replace('gs-web.html')" class="nav-button" id="prev-button"><i class="material-icons">arrow_back</i> Getting Started</button>
-    <button onclick="location.replace('doc/print.html')" class="nav-button" id="next-button">Printing <i class="material-icons">arrow_forward</i></button>
+  <div class="switcher">
+    <button onclick="location.replace('index.html')" class="nav-button" id="prev-button"><i class="material-icons-round">arrow_back</i> Getting Started</button>
+    <button onclick="location.replace('doc/print.html')" class="nav-button" id="next-button" disabled>Printing <i class="material-icons-round">arrow_forward</i></button>
   </div>
 
+  <footer>
+    <div>
+      <a href="privacy.txt">Privacy & Policy</a>
+      <a href="https://github.com/sourav-kum/sour-editor/issues">Report Issue</a>
+      <a href="https://github.com/sourav-kum/sour-editor/">Github</a>
+    </div>
+  
+    <center>&copy; 2023 Sour Lang. All rights reserved.</center>
+  </footer>
+  
   <script src="../../script.js"></script>
   <script src="../../js/highlighter.js"></script>
 </body>

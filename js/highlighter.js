@@ -22,7 +22,7 @@ function highlight(element) {
     .replaceAll(/(true|false)/g, '<span class="boolean">$1</span>')
     .replaceAll(/(\/\*.*\*\/)/gs, '<span class="comment">$1</span>')
     
-    .replaceAll(/#\((.*),(.*)\)/g, `<span class="error">$1</span>`)
+    .replaceAll(/#\((.*),(.*)\)/g, `<error msg="$2">$1</error>`)
     
     .replaceAll(/~(\d+)/g, (match, index) => `${funs[index]}`.highlight('function'))
 }

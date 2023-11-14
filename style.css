@@ -112,3 +112,43 @@ footer div a {
 .get-it-on div :nth-child(2) {
   font-size: 1.8em;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+td code {
+  display: inline-block;
+  background-color: #f2f2f2;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.switcher {
+  display: flex;
+  width: calc(100% - 40px);
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.switcher button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
