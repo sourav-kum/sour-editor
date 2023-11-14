@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sour Lang Documentation</title>
+  
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="../../themes/light.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
+</head>
+
+<body>
+  <header>
+    <h1>Sour Lang Documentation</h1>
+    <p>Learn to Use and Master the Sour Lang Programming Language</p>
+  </header>
+
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#syntax">Syntax</a></li>
+        <li><a href="#data-types">Data Types</a></li>
+        <li><a href="#functions">Functions</a></li>
+        <!-- Add more sections as needed -->
+      </ul>
+    </nav>
+
+    <section id="introduction">
+      <h2>Introduction</h2>
+      <p>Get an overview of the Sour Lang programming language and its features.</p>
+    </section>
+
+    <section id="installation">
+      <h2>Installation</h2>
+      <p>Learn how to set up Sour Lang on various platforms.</p>
+      <a href="gs-web.html">https:sourlang/installation.html</a>
+    </section>
+
+    <section id="syntax">
+      <h2>Syntax</h2>
+      <p>The syntax of Sour Lang follows a clear and intuitive structure. Here are some key syntax rules and conventions:</p>
+
+      <h3>Statements and Blocks</h3>
+      <p>Sour Lang programs are composed of statements, each ending with a semicolon. Blocks of code are enclosed in curly braces {}.</p>
+      <pre><code class="language-sourlang">fun main(): void {
+  var message = "Hello, Sour Lang!"
+  print(message)
+}</code></pre>
+
+      <h3>Variables and Data Types</h3>
+      <p>Variables are declared using the 'let' keyword, and their data types are inferred:</p>
+      <pre><code class="language-sourlang">var age = 25          // Integer
+var name = "Alice"    // String
+var isTrue = true     // Boolean</code></pre>
+
+      <h3>Functions</h3>
+      <p>Functions are defined using the 'fun' keyword. Parameters and return types are specified:</p>
+      <pre><code class="language-sourlang">fun add(a: int, b: int): int {
+  return a + b
+}</code></pre>
+
+      <h3>Comments</h3>
+      <p>Single-line comments start with '//' and multiline comments are enclosed in '/*' and '*/':</p>
+      <pre><code class="language-sourlang">// This is a single-line comment
+    
+/* This is a
+  multiline comment */</code></pre>
+
+      <p>At Program/File Scope you can only use function statements</p>
+      <pre><code class="language-sourlang">fun main(): void {}
+#(name,Identifier expression is not allowded in program scope.)
+#(289,Number literal is not allowded in program scope.)</code></pre>
+    </section>
+
+    <section id="data-types">
+      <h2>Data Types</h2>
+      <p>Understand the different data types supported by Sour Lang.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Data Type</th>
+            <th>Description</th>
+            <th>Examples</th>
+          </tr>
+        </thead>
+        <tbody <tr>
+          <td><code>int</code></td>
+          <td>Integer data type</td>
+          <td><code>42</code>, <code>-10</code></td>
+          </tr>
+          <tr>
+            <td><code>string</code></td>
+            <td>String data type</td>
+            <td><code>"Hello"</code>, <code>'World'</code></td>
+          </tr>
+          <tr>
+            <td><code>bool</code></td>
+            <td>Boolean data type</td>
+            <td><code>true</code>, <code>false</code></td>
+          </tr>
+          <!-- Add more rows for other data types -->
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+  <div class="navigation">
+    <button onclick="location.replace('gs-web.html')" class="nav-button" id="prev-button"><i class="material-icons">arrow_back</i> Getting Started</button>
+    <button onclick="location.replace('doc/print.html')" class="nav-button" id="next-button">Printing <i class="material-icons">arrow_forward</i></button>
+  </div>
+
+  <script src="//cdn.jsdelivr.net/npm/eruda"></script>
+  <script>
+    eruda.init();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+  <script src="linter.js"></script>
+</body>
+
+</html>
