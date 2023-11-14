@@ -1,7 +1,36 @@
 code {
   background: whitesmoke;
+  display: block;
+  overflow: scroll;
+  padding: 10px;
 }
 
 .keyword {
+  color: red;
+}
+
+.defination {
+  /* color: #0F65FF; */
+  color: red;
+}
+
+.string {
+  color: #49770B;
+}
+
+.function {
+  color: #0F65FF;
+}
+
+.comment {
+  color: #7D7D7D;
+  /* color: yellowgreen; */
+}
+
+.number {
+  color: slateblue;
+}
+
+.boolean {
   color: red;
 }
