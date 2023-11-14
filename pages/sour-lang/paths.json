@@ -11,7 +11,7 @@
     "path": "./"
   },
   
-  "overview": {
+  "doc": {
     "type": "file",
     "name": "Documentation",
     "path": "./doc.html"
